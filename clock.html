@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="./clock.css">
+</head>
+<body>
+    <div style="text-align: -webkit-center;">
+        <div class="main-div">
+            <div id="clock"></div>
+            <button id="toggleFormatButton" onclick="toggleTimeFormat()">12/24</button>
+            <input type="date" id="dateInput">
+            <input type="time" id="timeInput">
+            <button id="saveChangesButton" onclick="saveChanges()">Save Changes</button>
+            <div id="timeZonesContainer"></div>
+        </div>
+    </div>
+    <script src="./clock.js"></script>
+</body>
+</html>
