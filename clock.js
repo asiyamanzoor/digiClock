@@ -184,3 +184,4 @@ function updateTimes() {
 setInterval(updateClock, 1000); // Update every second
 updateClock(); // Initial call to display clock
 setInterval(updateTimes, 1000);
+console.log("test commit")
